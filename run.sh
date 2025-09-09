@@ -11,7 +11,7 @@ curl --proto '=https' --tlsv1.2 -sSfL https://raw.githubusercontent.com/solana-d
 
 # Install only Solana CLI
 sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
-PATH="/home/shayon/.local/share/solana/install/active_release/bin:$PATH"
+PATH="/home/shahrukh/.local/share/solana/install/active_release/bin:$PATH"
 
 
 # Set local development environments
@@ -31,7 +31,7 @@ solana config set --url  http://127.0.0.1:8899
 # Create Wallet
 # Docs - https://solana.com/docs/intro/installation#create-wallet
 solana-keygen new
-cat /home/shayon/.config/solana/id.json
+cat /home/shahrukh/.config/solana/id.json
 solana address
 # Is solana address is not showing run command below
 # solana address ~/.config/solana/id.json
